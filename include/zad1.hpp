@@ -9,6 +9,7 @@ using namespace std;
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
 class Makaron
 {
+  public:
   virtual double ileMaki (unsigned P) const =0;
   static Makaron* gotujMakaron(const string&);
  ~Makaron(){};

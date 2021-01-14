@@ -10,6 +10,7 @@
 
 class Penne : public Makaron
 {
+  public:
   double ileMaki(unsigned P) const {return(double) P;};
 };
 
