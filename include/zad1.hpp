@@ -7,11 +7,16 @@ using namespace std;
 // Zad2
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
+class Makaron
+{
+  virtual double ileMaki (unsigned) const ()=0;
+  static Makaron* gotujMakaron(const string&);
+};
 
 // Zad1
 // tutaj definicja klasy Tagliatelle
 
-class Tagliatelle
+class Tagliatelle :public Makaron
 {
   private:
   double L;
