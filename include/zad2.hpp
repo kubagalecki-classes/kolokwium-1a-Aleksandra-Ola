@@ -10,7 +10,7 @@
 
 class Penne : public Makaron
 {
-  double ileMaki(unsigned P) const {return P;};
+  double ileMaki(unsigned P) const {return(double) P;};
 };
 
 Makaron* Makaron::gotujMakaron(const string& makaron)
